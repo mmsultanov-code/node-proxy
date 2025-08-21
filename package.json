@@ -1,23 +1,31 @@
 {
-  "name": "proxy-service",
+  "name": "admin-proxy",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmsultanov-code/node-proxy.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmsultanov-code/node-proxy/issues"
+  },
+  "homepage": "https://github.com/mmsultanov-code/node-proxy#readme",
   "description": "",
   "dependencies": {
+    "body-parser": "^2.2.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "http-proxy-middleware": "^3.0.3",
-    "nodemon": "^3.1.9"
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
   },
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "prettier": "^3.6.2"
   }
 }
